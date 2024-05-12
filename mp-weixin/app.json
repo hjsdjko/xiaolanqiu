@@ -1,0 +1,114 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/gonggao/list",
+    "pages/gonggao/list2",
+    "pages/gonggao/add-or-update",
+    "pages/gonggao/detail",
+    "pages/qiudui/list",
+    "pages/qiudui/list2",
+    "pages/qiudui/add-or-update",
+    "pages/qiudui/detail",
+    "pages/qiuduiCollection/list",
+    "pages/qiuduiCollection/list2",
+    "pages/qiuduiCollection/add-or-update",
+    "pages/qiuduiCollection/detail",
+    "pages/qiuduiLiuyan/list",
+    "pages/qiuduiLiuyan/list2",
+    "pages/qiuduiLiuyan/add-or-update",
+    "pages/qiuduiLiuyan/detail",
+    "pages/qiuyuan/list",
+    "pages/qiuyuan/list2",
+    "pages/qiuyuan/add-or-update",
+    "pages/qiuyuan/detail",
+    "pages/qiuyuanCollection/list",
+    "pages/qiuyuanCollection/list2",
+    "pages/qiuyuanCollection/add-or-update",
+    "pages/qiuyuanCollection/detail",
+    "pages/qiuyuanLiuyan/list",
+    "pages/qiuyuanLiuyan/list2",
+    "pages/qiuyuanLiuyan/add-or-update",
+    "pages/qiuyuanLiuyan/detail",
+    "pages/saishixinxi/list",
+    "pages/saishixinxi/list2",
+    "pages/saishixinxi/add-or-update",
+    "pages/saishixinxi/detail",
+    "pages/saishixinxiCollection/list",
+    "pages/saishixinxiCollection/list2",
+    "pages/saishixinxiCollection/add-or-update",
+    "pages/saishixinxiCollection/detail",
+    "pages/saishixinxiXiangqing/list",
+    "pages/saishixinxiXiangqing/list2",
+    "pages/saishixinxiXiangqing/add-or-update",
+    "pages/saishixinxiXiangqing/detail",
+    "pages/saishixinxiXiangqingCollection/list",
+    "pages/saishixinxiXiangqingCollection/list2",
+    "pages/saishixinxiXiangqingCollection/add-or-update",
+    "pages/saishixinxiXiangqingCollection/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校篮球联赛",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#aebaf8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/qiudui/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "球队"
+      },
+      {
+        "pagePath": "pages/qiuyuan/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "球员"
+      },
+      {
+        "pagePath": "pages/saishixinxi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "赛事信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
